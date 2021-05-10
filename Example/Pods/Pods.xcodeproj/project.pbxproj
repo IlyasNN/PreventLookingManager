@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BECCBA62649D0620041FE13 /* UIDevice+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA42649D0610041FE13 /* UIDevice+FrameRate.swift */; };
+		1BECCBA72649D0620041FE13 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA52649D0620041FE13 /* Property.swift */; };
+		1BECCBAA2649D0650041FE13 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA92649D0650041FE13 /* Helper.swift */; };
+		1BECCBAB2649D0650041FE13 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA82649D0650041FE13 /* Extensions.swift */; };
+		1BECCBAC2649D0A60041FE13 /* PLM+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA32649D0570041FE13 /* PLM+CoreLocation.swift */; };
+		1BECCBAD2649D0A60041FE13 /* PLM+Observers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA12649D0560041FE13 /* PLM+Observers.swift */; };
+		1BECCBAE2649D0A60041FE13 /* PLM+VideoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */; };
+		1BECCBAF2649D0A60041FE13 /* PLM+Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */; };
+		1BECCBB02649D0A60041FE13 /* PLMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA22649D0570041FE13 /* PLMConfig.swift */; };
+		1BECCBB12649D0A60041FE13 /* PLMDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */; };
+		1BECCBB22649D0A60041FE13 /* PLMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9F2649D0560041FE13 /* PLMError.swift */; };
+		1BECCBB32649D0A60041FE13 /* PreventLookingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */; };
+		1BECCBB42649D0A60041FE13 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB982649D0330041FE13 /* States.swift */; };
+		1BECCBB52649D13C0041FE13 /* EyesDetection1902.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB972649D0330041FE13 /* EyesDetection1902.mlmodel */; };
+		1BECCC002649D81C0041FE13 /* PreventLookingAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBFF2649D81C0041FE13 /* PreventLookingAppManager.swift */; };
 		4E432640AA79D6AF97DB479D4F5B8D16 /* Pods-PreventLookingManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB86905277A9EBAF0A1D4681B73224D /* Pods-PreventLookingManager_Tests-dummy.m */; };
 		51F7BEE0737D6738A5152AA4C31D0276 /* Pods-PreventLookingManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48329C6F246EE7BAAC380C6A5BB5B7E7 /* Pods-PreventLookingManager_Example-dummy.m */; };
 		5C883CA545FB189ABA099B2A2F071198 /* PreventLookingManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9CF112CF9B351674207EB1C130228 /* PreventLookingManager-dummy.m */; };
@@ -15,7 +30,6 @@
 		D10644BB8BD9BBE6106F01EEE9922633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E34F2A7A32FE02CE63429BC8F06F427D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EEA91347D52F90D7C4A678A80EB1DD5C /* Pods-PreventLookingManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A24122CE20B7DB8FF896242A71B604 /* Pods-PreventLookingManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F946A48C29898E174E4B133A7061B12F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900F010C90FB78F95CEA615097C1422 /* ReplaceMe.swift */; };
 		FE0A90B12BCD0ABD4D7D739C8E8AEC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,16 +52,31 @@
 
 /* Begin PBXFileReference section */
 		16CBE49ACAF5BB772AFE2853FFD722F6 /* PreventLookingManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreventLookingManager.release.xcconfig; sourceTree = "<group>"; };
+		1BECCB972649D0330041FE13 /* EyesDetection1902.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EyesDetection1902.mlmodel; sourceTree = "<group>"; };
+		1BECCB982649D0330041FE13 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMDelegate.swift; sourceTree = "<group>"; };
+		1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+VideoSession.swift"; sourceTree = "<group>"; };
+		1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+Vision.swift"; sourceTree = "<group>"; };
+		1BECCB9F2649D0560041FE13 /* PLMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMError.swift; sourceTree = "<group>"; };
+		1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventLookingManager.swift; sourceTree = "<group>"; };
+		1BECCBA12649D0560041FE13 /* PLM+Observers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+Observers.swift"; sourceTree = "<group>"; };
+		1BECCBA22649D0570041FE13 /* PLMConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMConfig.swift; sourceTree = "<group>"; };
+		1BECCBA32649D0570041FE13 /* PLM+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+CoreLocation.swift"; sourceTree = "<group>"; };
+		1BECCBA42649D0610041FE13 /* UIDevice+FrameRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+FrameRate.swift"; sourceTree = "<group>"; };
+		1BECCBA52649D0620041FE13 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		1BECCBA82649D0650041FE13 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1BECCBA92649D0650041FE13 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1BECCBFF2649D81C0041FE13 /* PreventLookingAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventLookingAppManager.swift; sourceTree = "<group>"; };
 		2042B4C9EB0C8F203D574745F8DD0976 /* Pods-PreventLookingManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreventLookingManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2122ECA649E75C11E11457C4418D2FDC /* Pods-PreventLookingManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreventLookingManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2162B8D659972634899D1983B5FC5D90 /* Pods_PreventLookingManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreventLookingManager_Example.framework; path = "Pods-PreventLookingManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2162B8D659972634899D1983B5FC5D90 /* Pods_PreventLookingManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		261C1EF4F4B354516AC3FBFB0DD07B10 /* PreventLookingManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreventLookingManager-prefix.pch"; sourceTree = "<group>"; };
 		2CB9CF112CF9B351674207EB1C130228 /* PreventLookingManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PreventLookingManager-dummy.m"; sourceTree = "<group>"; };
-		304764C4BDCCA997EE37E18418777334 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PreventLookingManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		30BB33895BA076D896BC7EA6CD55F172 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreventLookingManager_Tests.framework; path = "Pods-PreventLookingManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		304764C4BDCCA997EE37E18418777334 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PreventLookingManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30BB33895BA076D896BC7EA6CD55F172 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48329C6F246EE7BAAC380C6A5BB5B7E7 /* Pods-PreventLookingManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreventLookingManager_Example-dummy.m"; sourceTree = "<group>"; };
 		5F08ED4FA453F0E07ADA068334D4568F /* Pods-PreventLookingManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreventLookingManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		6D243BBE943C2B8C7D715A15837DD433 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D243BBE943C2B8C7D715A15837DD433 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F88B7FD4D32FC765FA88A921D911384 /* PreventLookingManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PreventLookingManager.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7558032C0BF6949816F32BA28C2A46A4 /* PreventLookingManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PreventLookingManager-Info.plist"; sourceTree = "<group>"; };
@@ -61,14 +90,13 @@
 		880CD15ED847D8F1B7DE3D67BE831975 /* Pods-PreventLookingManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreventLookingManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		996C2A556CD929392D44B937588AE591 /* Pods-PreventLookingManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreventLookingManager_Example.modulemap"; sourceTree = "<group>"; };
 		9C9FE39C54E2C6E24C7AB5114F0527CC /* PreventLookingManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreventLookingManager.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07B700711430B8F1F368561C0ECB6E9 /* Pods-PreventLookingManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreventLookingManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4DAC0B3D3E4DE049B054BB4D924E24B /* Pods-PreventLookingManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreventLookingManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BCF12F067EA59A39D5E291F28FCD13B7 /* Pods-PreventLookingManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreventLookingManager_Tests.modulemap"; sourceTree = "<group>"; };
 		C7935EB768FC5D0FA557A6C724D1931F /* Pods-PreventLookingManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreventLookingManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C84C856C4834E3C7EF270B8A0EEA0C16 /* PreventLookingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PreventLookingManager.framework; path = PreventLookingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8CF94584469F5BA7D0F7BFEF69A9D5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D900F010C90FB78F95CEA615097C1422 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PreventLookingManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C84C856C4834E3C7EF270B8A0EEA0C16 /* PreventLookingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PreventLookingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CF94584469F5BA7D0F7BFEF69A9D5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F6D1E3BAFB34CC09A04ACAFC6D1D2BBE /* Pods-PreventLookingManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreventLookingManager_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +138,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1BECCB952649D0190041FE13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBA82649D0650041FE13 /* Extensions.swift */,
+				1BECCBA92649D0650041FE13 /* Helper.swift */,
+				1BECCBA52649D0620041FE13 /* Property.swift */,
+				1BECCBA42649D0610041FE13 /* UIDevice+FrameRate.swift */,
+				1BECCB9B2649D0490041FE13 /* PreventLookingManager */,
+				1BECCBFF2649D81C0041FE13 /* PreventLookingAppManager.swift */,
+				1BECCB962649D02A0041FE13 /* Logic */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1BECCB962649D02A0041FE13 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCB972649D0330041FE13 /* EyesDetection1902.mlmodel */,
+				1BECCB982649D0330041FE13 /* States.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		1BECCB9B2649D0490041FE13 /* PreventLookingManager */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBA32649D0570041FE13 /* PLM+CoreLocation.swift */,
+				1BECCBA12649D0560041FE13 /* PLM+Observers.swift */,
+				1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */,
+				1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */,
+				1BECCBA22649D0570041FE13 /* PLMConfig.swift */,
+				1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */,
+				1BECCB9F2649D0560041FE13 /* PLMError.swift */,
+				1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */,
+			);
+			path = PreventLookingManager;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +187,7 @@
 		8A5B48F8AAF242D54978E7BD064FB6BA /* PreventLookingManager */ = {
 			isa = PBXGroup;
 			children = (
-				D900F010C90FB78F95CEA615097C1422 /* ReplaceMe.swift */,
+				1BECCB952649D0190041FE13 /* Source */,
 				D5018652F9BFB0D7B62C016BCA5B1633 /* Pod */,
 				D2ACC75F3DD2F43FDDC21E47B6BDCC39 /* Support Files */,
 			);
@@ -316,7 +382,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9FBF0B5B64B1107A5D3447F9E070AEDC = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +438,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BECCBB52649D13C0041FE13 /* EyesDetection1902.mlmodel in Sources */,
+				1BECCBAC2649D0A60041FE13 /* PLM+CoreLocation.swift in Sources */,
+				1BECCBAD2649D0A60041FE13 /* PLM+Observers.swift in Sources */,
+				1BECCBAE2649D0A60041FE13 /* PLM+VideoSession.swift in Sources */,
+				1BECCBAF2649D0A60041FE13 /* PLM+Vision.swift in Sources */,
+				1BECCBB02649D0A60041FE13 /* PLMConfig.swift in Sources */,
+				1BECCBB12649D0A60041FE13 /* PLMDelegate.swift in Sources */,
+				1BECCBB22649D0A60041FE13 /* PLMError.swift in Sources */,
+				1BECCBB32649D0A60041FE13 /* PreventLookingManager.swift in Sources */,
+				1BECCBB42649D0A60041FE13 /* States.swift in Sources */,
+				1BECCBA62649D0620041FE13 /* UIDevice+FrameRate.swift in Sources */,
+				1BECCBAB2649D0650041FE13 /* Extensions.swift in Sources */,
+				1BECCC002649D81C0041FE13 /* PreventLookingAppManager.swift in Sources */,
+				1BECCBAA2649D0650041FE13 /* Helper.swift in Sources */,
+				1BECCBA72649D0620041FE13 /* Property.swift in Sources */,
 				5C883CA545FB189ABA099B2A2F071198 /* PreventLookingManager-dummy.m in Sources */,
-				F946A48C29898E174E4B133A7061B12F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +506,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example.modulemap";
@@ -432,6 +517,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -491,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -508,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16CBE49ACAF5BB772AFE2853FFD722F6 /* PreventLookingManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -519,15 +606,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PreventLookingManager/PreventLookingManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PreventLookingManager/PreventLookingManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PreventLookingManager/PreventLookingManager.modulemap";
 				PRODUCT_MODULE_NAME = PreventLookingManager;
 				PRODUCT_NAME = PreventLookingManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -550,7 +638,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests.modulemap";
@@ -561,6 +649,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -583,7 +672,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example.modulemap";
@@ -594,6 +683,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -651,13 +741,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -667,6 +756,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C9FE39C54E2C6E24C7AB5114F0527CC /* PreventLookingManager.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -678,15 +768,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PreventLookingManager/PreventLookingManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PreventLookingManager/PreventLookingManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PreventLookingManager/PreventLookingManager.modulemap";
 				PRODUCT_MODULE_NAME = PreventLookingManager;
 				PRODUCT_NAME = PreventLookingManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -708,7 +800,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests.modulemap";
@@ -719,6 +811,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

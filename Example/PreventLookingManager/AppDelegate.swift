@@ -1,22 +1,43 @@
 //
 //  AppDelegate.swift
-//  PreventLookingManager
+//  PreventLookingScreen_Example
 //
-//  Created by IlyasNN on 05/10/2021.
-//  Copyright (c) 2021 IlyasNN. All rights reserved.
+//  Created by Илья Соловьёв on 09.05.2021.
+//  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import PreventLookingManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        PreventLookingAppManager.configure(with: PLMConfig(minimumSpeed: 20))
+        
+        installTabBarController()
+        
         return true
+    }
+    
+    func installTabBarController() {
+
+        let appManagerExampleRouter = AppManagerExampleRouter()
+        let localManagerExampleRouter = LocalManagerExampleRouter()
+        let settingsRouter = SettingsRouter()
+            
+        let tabBarLayer = TabBarLayer(controllers: appManagerExampleRouter.navigationController,
+                                      localManagerExampleRouter.navigationController,
+                                      settingsRouter.navigationController)
+        let tabBarController = tabBarLayer.installTabBarController(selectedIndex: 0)
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabBarItemView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Foy-2u-NBx"/>
+                <outlet property="imageView" destination="UgL-Z2-uMe" id="Awd-qX-JbD"/>
+                <outlet property="label" destination="se7-LQ-C3x" id="zwt-1a-pow"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="32" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UgL-Z2-uMe">
+                    <rect key="frame" x="0.0" y="8" width="32" height="32"/>
+                    <color key="tintColor" red="1" green="0.0" blue="0.028078071959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="XiC-ME-ens"/>
+                        <constraint firstAttribute="width" constant="32" id="nRL-Fb-bc2"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se7-LQ-C3x">
+                    <rect key="frame" x="4" y="41" width="24.5" height="12"/>
+                    <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="se7-LQ-C3x" firstAttribute="top" secondItem="UgL-Z2-uMe" secondAttribute="bottom" constant="1" id="1BL-4e-URu"/>
+                <constraint firstItem="UgL-Z2-uMe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="7Yt-1m-eUz"/>
+                <constraint firstItem="UgL-Z2-uMe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DRP-dB-D5l"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="se7-LQ-C3x" secondAttribute="bottom" id="cmf-Fv-yGG"/>
+                <constraint firstItem="se7-LQ-C3x" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eaf-Yt-b7C"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="8vK-lY-khZ" appends="YES" id="z4S-vw-et5"/>
+            </connections>
+            <point key="canvasLocation" x="-327.536231884058" y="-132.92410714285714"/>
+        </view>
+        <tapGestureRecognizer id="8vK-lY-khZ">
+            <connections>
+                <action selector="tap:" destination="-1" id="KhF-jP-Ws0"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

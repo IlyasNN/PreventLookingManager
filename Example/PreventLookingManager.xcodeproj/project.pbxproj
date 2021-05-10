@@ -7,11 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BECCBBA2649D1BA0041FE13 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB62649D18C0041FE13 /* Colors.xcassets */; };
+		1BECCBBB2649D1BA0041FE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB72649D18C0041FE13 /* Images.xcassets */; };
+		1BECCBD32649D3760041FE13 /* TabBarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBCE2649D3080041FE13 /* TabBarLayer.swift */; };
+		1BECCBD42649D3760041FE13 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBD12649D3080041FE13 /* TabBarItemView.swift */; };
+		1BECCBD52649D3760041FE13 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBCF2649D3080041FE13 /* TabBarViewController.swift */; };
+		1BECCBD62649D37D0041FE13 /* TabBarItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBD02649D3080041FE13 /* TabBarItemView.xib */; };
+		1BECCBD72649D37D0041FE13 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBD22649D3080041FE13 /* TabBarViewController.xib */; };
+		1BECCBEA2649D4A30041FE13 /* AppManagerExampleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBE92649D4A30041FE13 /* AppManagerExampleRouter.swift */; };
+		1BECCBEC2649D4B10041FE13 /* AppManagerExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBEB2649D4B10041FE13 /* AppManagerExampleViewController.swift */; };
+		1BECCBF32649D5260041FE13 /* LocalManagerExampleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBEF2649D4E70041FE13 /* LocalManagerExampleRouter.swift */; };
+		1BECCBF42649D5260041FE13 /* LocalManagerExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBEE2649D4E70041FE13 /* LocalManagerExampleViewController.swift */; };
+		1BECCBF52649D5260041FE13 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBF02649D5070041FE13 /* SettingsRouter.swift */; };
+		1BECCBF62649D5260041FE13 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBF22649D5070041FE13 /* SettingsViewController.swift */; };
+		1BECCBF82649D5620041FE13 /* Storyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBF72649D5580041FE13 /* Storyboard+UIViewController.swift */; };
+		1BECCBF92649D68E0041FE13 /* LocalManagerExampleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBED2649D4E70041FE13 /* LocalManagerExampleViewController.storyboard */; };
+		1BECCBFA2649D68E0041FE13 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBF12649D5070041FE13 /* SettingsViewController.storyboard */; };
+		1BECCBFE2649D7190041FE13 /* AppManagerExampleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBFC2649D70F0041FE13 /* AppManagerExampleViewController.storyboard */; };
+		1BECCC022649D8630041FE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCC012649D8630041FE13 /* AppDelegate.swift */; };
+		1BECCC042649D8830041FE13 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCC032649D8830041FE13 /* DesignableView.swift */; };
+		1BECCC062649D88B0041FE13 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCC052649D88B0041FE13 /* UIColor+Extension.swift */; };
+		1BECCC082649D88F0041FE13 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCC072649D88F0041FE13 /* UIView+Extension.swift */; };
+		1BECCC0A2649D8B40041FE13 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCC092649D8B40041FE13 /* Array+Extension.swift */; };
 		47A68B7E2F58A99186222E3A /* Pods_PreventLookingManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D259C2359E2607E4EBB5A6 /* Pods_PreventLookingManager_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C846CDB871086D1435418ADE /* Pods_PreventLookingManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA39402F07742F0EC7346DEB /* Pods_PreventLookingManager_Example.framework */; };
@@ -30,12 +48,30 @@
 /* Begin PBXFileReference section */
 		10A3679AD26029144B264369 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PreventLookingManager.podspec; path = ../PreventLookingManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D259C2359E2607E4EBB5A6 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BECCBB62649D18C0041FE13 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1BECCBB72649D18C0041FE13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BECCBCE2649D3080041FE13 /* TabBarLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarLayer.swift; sourceTree = "<group>"; };
+		1BECCBCF2649D3080041FE13 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1BECCBD02649D3080041FE13 /* TabBarItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarItemView.xib; sourceTree = "<group>"; };
+		1BECCBD12649D3080041FE13 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		1BECCBD22649D3080041FE13 /* TabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		1BECCBE92649D4A30041FE13 /* AppManagerExampleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManagerExampleRouter.swift; sourceTree = "<group>"; };
+		1BECCBEB2649D4B10041FE13 /* AppManagerExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManagerExampleViewController.swift; sourceTree = "<group>"; };
+		1BECCBED2649D4E70041FE13 /* LocalManagerExampleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LocalManagerExampleViewController.storyboard; sourceTree = "<group>"; };
+		1BECCBEE2649D4E70041FE13 /* LocalManagerExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManagerExampleViewController.swift; sourceTree = "<group>"; };
+		1BECCBEF2649D4E70041FE13 /* LocalManagerExampleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManagerExampleRouter.swift; sourceTree = "<group>"; };
+		1BECCBF02649D5070041FE13 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		1BECCBF12649D5070041FE13 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		1BECCBF22649D5070041FE13 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1BECCBF72649D5580041FE13 /* Storyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+UIViewController.swift"; sourceTree = "<group>"; };
+		1BECCBFC2649D70F0041FE13 /* AppManagerExampleViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppManagerExampleViewController.storyboard; sourceTree = "<group>"; };
+		1BECCC012649D8630041FE13 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BECCC032649D8830041FE13 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		1BECCC052649D88B0041FE13 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1BECCC072649D88F0041FE13 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1BECCC092649D8B40041FE13 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PreventLookingManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreventLookingManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PreventLookingManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreventLookingManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +114,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1BECCBCC2649D2B90041FE13 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBF72649D5580041FE13 /* Storyboard+UIViewController.swift */,
+				1BECCBCD2649D2C90041FE13 /* TabBar */,
+				1BECCBD92649D3F60041FE13 /* AppManager */,
+				1BECCBD82649D3E70041FE13 /* LocalManager */,
+				1BECCBDA2649D4060041FE13 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1BECCBCD2649D2C90041FE13 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBCE2649D3080041FE13 /* TabBarLayer.swift */,
+				1BECCBD12649D3080041FE13 /* TabBarItemView.swift */,
+				1BECCBD02649D3080041FE13 /* TabBarItemView.xib */,
+				1BECCBCF2649D3080041FE13 /* TabBarViewController.swift */,
+				1BECCBD22649D3080041FE13 /* TabBarViewController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1BECCBD82649D3E70041FE13 /* LocalManager */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBEF2649D4E70041FE13 /* LocalManagerExampleRouter.swift */,
+				1BECCBED2649D4E70041FE13 /* LocalManagerExampleViewController.storyboard */,
+				1BECCBEE2649D4E70041FE13 /* LocalManagerExampleViewController.swift */,
+			);
+			path = LocalManager;
+			sourceTree = "<group>";
+		};
+		1BECCBD92649D3F60041FE13 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBE92649D4A30041FE13 /* AppManagerExampleRouter.swift */,
+				1BECCBEB2649D4B10041FE13 /* AppManagerExampleViewController.swift */,
+				1BECCBFC2649D70F0041FE13 /* AppManagerExampleViewController.storyboard */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		1BECCBDA2649D4060041FE13 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1BECCBF02649D5070041FE13 /* SettingsRouter.swift */,
+				1BECCBF22649D5070041FE13 /* SettingsViewController.swift */,
+				1BECCBF12649D5070041FE13 /* SettingsViewController.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +192,14 @@
 		607FACD21AFB9204008FA782 /* Example for PreventLookingManager */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				1BECCBCC2649D2B90041FE13 /* Modules */,
+				1BECCBB62649D18C0041FE13 /* Colors.xcassets */,
+				1BECCBB72649D18C0041FE13 /* Images.xcassets */,
+				1BECCC012649D8630041FE13 /* AppDelegate.swift */,
+				1BECCC032649D8830041FE13 /* DesignableView.swift */,
+				1BECCC052649D88B0041FE13 /* UIColor+Extension.swift */,
+				1BECCC072649D88F0041FE13 /* UIView+Extension.swift */,
+				1BECCC092649D8B40041FE13 /* Array+Extension.swift */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -207,26 +301,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 59L3UHZY77;
+						LastSwiftMigration = 1250;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 59L3UHZY77;
+						LastSwiftMigration = 1250;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PreventLookingManager" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -246,9 +341,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				1BECCBFE2649D7190041FE13 /* AppManagerExampleViewController.storyboard in Resources */,
+				1BECCBF92649D68E0041FE13 /* LocalManagerExampleViewController.storyboard in Resources */,
+				1BECCBFA2649D68E0041FE13 /* SettingsViewController.storyboard in Resources */,
+				1BECCBD62649D37D0041FE13 /* TabBarItemView.xib in Resources */,
+				1BECCBD72649D37D0041FE13 /* TabBarViewController.xib in Resources */,
+				1BECCBBA2649D1BA0041FE13 /* Colors.xcassets in Resources */,
+				1BECCBBB2649D1BA0041FE13 /* Images.xcassets in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +431,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1BECCBF82649D5620041FE13 /* Storyboard+UIViewController.swift in Sources */,
+				1BECCBF32649D5260041FE13 /* LocalManagerExampleRouter.swift in Sources */,
+				1BECCBF42649D5260041FE13 /* LocalManagerExampleViewController.swift in Sources */,
+				1BECCBF52649D5260041FE13 /* SettingsRouter.swift in Sources */,
+				1BECCC062649D88B0041FE13 /* UIColor+Extension.swift in Sources */,
+				1BECCBF62649D5260041FE13 /* SettingsViewController.swift in Sources */,
+				1BECCC0A2649D8B40041FE13 /* Array+Extension.swift in Sources */,
+				1BECCBD32649D3760041FE13 /* TabBarLayer.swift in Sources */,
+				1BECCBEC2649D4B10041FE13 /* AppManagerExampleViewController.swift in Sources */,
+				1BECCBD42649D3760041FE13 /* TabBarItemView.swift in Sources */,
+				1BECCC042649D8830041FE13 /* DesignableView.swift in Sources */,
+				1BECCC022649D8630041FE13 /* AppDelegate.swift in Sources */,
+				1BECCBD52649D3760041FE13 /* TabBarViewController.swift in Sources */,
+				1BECCC082649D88F0041FE13 /* UIView+Extension.swift in Sources */,
+				1BECCBEA2649D4A30041FE13 /* AppManagerExampleRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +468,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -378,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,14 +492,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,14 +549,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +591,14 @@
 			baseConfigurationReference = AB4BEA333EF6B6859F8E8B36 /* Pods-PreventLookingManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59L3UHZY77;
 				INFOPLIST_FILE = PreventLookingManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +607,14 @@
 			baseConfigurationReference = 89764FBD3B342B49B7ACFAD0 /* Pods-PreventLookingManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59L3UHZY77;
 				INFOPLIST_FILE = PreventLookingManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6810AC831C8E6F636BC27C5 /* Pods-PreventLookingManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 59L3UHZY77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,7 +636,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreventLookingManager_Example.app/PreventLookingManager_Example";
 			};
 			name = Debug;
@@ -529,6 +645,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCB31BCE5C1BC0E87A715073 /* Pods-PreventLookingManager_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 59L3UHZY77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,7 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreventLookingManager_Example.app/PreventLookingManager_Example";
 			};
 			name = Release;
