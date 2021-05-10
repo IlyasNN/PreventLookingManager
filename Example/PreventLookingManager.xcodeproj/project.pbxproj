@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10A3679AD26029144B264369 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PreventLookingManager.podspec; path = ../PreventLookingManager.podspec; sourceTree = "<group>"; };
+		10A3679AD26029144B264369 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PreventLookingManager.podspec; path = ../PreventLookingManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D259C2359E2607E4EBB5A6 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PreventLookingManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreventLookingManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* PreventLookingManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreventLookingManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AFACFA5BAE593B25C7FF887 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6AFACFA5BAE593B25C7FF887 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		89764FBD3B342B49B7ACFAD0 /* Pods-PreventLookingManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreventLookingManager_Example.release.xcconfig"; path = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A6810AC831C8E6F636BC27C5 /* Pods-PreventLookingManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreventLookingManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB4BEA333EF6B6859F8E8B36 /* Pods-PreventLookingManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreventLookingManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-PreventLookingManager_Example/Pods-PreventLookingManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C73F3307723576FCC81C741F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C73F3307723576FCC81C741F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA39402F07742F0EC7346DEB /* Pods_PreventLookingManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB31BCE5C1BC0E87A715073 /* Pods-PreventLookingManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreventLookingManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-PreventLookingManager_Tests/Pods-PreventLookingManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				A6810AC831C8E6F636BC27C5 /* Pods-PreventLookingManager_Tests.debug.xcconfig */,
 				DCB31BCE5C1BC0E87A715073 /* Pods-PreventLookingManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

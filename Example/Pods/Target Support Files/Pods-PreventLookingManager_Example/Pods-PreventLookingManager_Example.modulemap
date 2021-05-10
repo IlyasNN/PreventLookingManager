@@ -1,0 +1,6 @@
+framework module Pods_PreventLookingManager_Example {
+  umbrella header "Pods-PreventLookingManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

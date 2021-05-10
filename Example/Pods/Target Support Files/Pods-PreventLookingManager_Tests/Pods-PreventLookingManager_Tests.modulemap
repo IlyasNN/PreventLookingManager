@@ -1,0 +1,6 @@
+framework module Pods_PreventLookingManager_Tests {
+  umbrella header "Pods-PreventLookingManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

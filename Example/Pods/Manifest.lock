@@ -1,0 +1,16 @@
+PODS:
+  - PreventLookingManager (0.1.0)
+
+DEPENDENCIES:
+  - PreventLookingManager (from `../`)
+
+EXTERNAL SOURCES:
+  PreventLookingManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PreventLookingManager: 86b337c09dce15272630926e70d0436d3ba9f6ef
+
+PODFILE CHECKSUM: 35d7801d6ee992c5658cb030228beb544fbf2030
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module PreventLookingManager {
+  umbrella header "PreventLookingManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
