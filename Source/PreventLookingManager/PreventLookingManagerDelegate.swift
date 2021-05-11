@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol PLMDelegate {
+public protocol PreventLookingManagerDelegate {
     
     func gotWarning()
     func gotError(_ error: Error)
@@ -17,7 +17,7 @@ public protocol PLMDelegate {
     
 }
 
-public extension PLMDelegate {
+public extension PreventLookingManagerDelegate {
     
     func videoImage(videoImage: UIImage?) { }
     func faceDetected(faceImage: UIImage?) { }

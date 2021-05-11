@@ -12,7 +12,7 @@ import CoreLocation
 
 open class PreventLookingManager: NSObject {
     
-    open var delegate: PLMDelegate?
+    open var delegate: PreventLookingManagerDelegate?
     
     open var didGetWarning: Property<Bool> = .init(false)
     
@@ -88,7 +88,7 @@ open class PreventLookingManager: NSObject {
     //-------------------------------------
     
     // FIXME: add config
-    public func configure(with config: PLMConfig) {
+    public func configure(with config: PreventLookingManagerConfig) {
         
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(action), userInfo: nil, repeats: true)
         

@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-open class PLMConfig {
+open class PreventLookingManagerConfig {
     
     var timeout: Int
     var minimumSpeed: Double?

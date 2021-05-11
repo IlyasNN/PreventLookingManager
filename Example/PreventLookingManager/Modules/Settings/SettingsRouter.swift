@@ -1,6 +1,6 @@
 //
 //  SettingsRouter.swift
-//  PreventLookingScreen_Example
+//  PreventLookingManager_Example
 //
 //  Created by Илья Соловьёв on 09.05.2021.
 //  Copyright © 2021 CocoaPods. All rights reserved.
@@ -16,6 +16,8 @@ class SettingsRouter {
 
         let settingsScreen = SettingsViewController.initFromItsStoryboard()
         let nvc = UINavigationController(rootViewController: settingsScreen)
+        nvc.navigationBar.barTintColor = UIColor.blue
+        nvc.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
         
         nvc.tabBarItem = TabBarItem(title: "Настройки",
                                          image: UIImage(named: "tabBar.settings"),
@@ -23,8 +25,6 @@ class SettingsRouter {
         
         nvc.navigationBar.isHidden = true
         nvc.modalPresentationStyle = .fullScreen
-        //disable pop swipe from left to right
-        nvc.interactivePopGestureRecognizer?.isEnabled = false
         
         self.navigationController = nvc
     }
