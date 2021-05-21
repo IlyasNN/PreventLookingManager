@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PreventLookingManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PreventLookingManager.'
+  s.summary          = 'PreventLookingManager is a manager that allows to prevent looking.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/IlyasNN/PreventLookingManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'IlyasNN' => 'i.solovyev@globus-ltd.com' }
+  s.author           = { 'IlyasNN' => 'ilyasolovyov52@yandex.ru' }
   s.source           = { :git => 'https://github.com/IlyasNN/PreventLookingManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.1'
 
-  s.source_files = 'PreventLookingManager/Classes/**/*'
+  s.source_files = 'PreventLookingManager/Source/**/*'
   
   # s.resource_bundles = {
   #   'PreventLookingManager' => ['PreventLookingManager/Assets/*.png']
