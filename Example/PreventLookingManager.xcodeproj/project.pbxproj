@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8CFCE1264B289000233865 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CFCE0264B289000233865 /* UIViewController+Extension.swift */; };
 		1BECCBBA2649D1BA0041FE13 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB62649D18C0041FE13 /* Colors.xcassets */; };
 		1BECCBBB2649D1BA0041FE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB72649D18C0041FE13 /* Images.xcassets */; };
 		1BECCBD32649D3760041FE13 /* TabBarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBCE2649D3080041FE13 /* TabBarLayer.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		10A3679AD26029144B264369 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PreventLookingManager.podspec; path = ../PreventLookingManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D259C2359E2607E4EBB5A6 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8CFCE0264B289000233865 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		1BECCBB62649D18C0041FE13 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1BECCBB72649D18C0041FE13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BECCBCE2649D3080041FE13 /* TabBarLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarLayer.swift; sourceTree = "<group>"; };
@@ -114,10 +116,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1BECCBCC2649D2B90041FE13 /* Modules */ = {
+		1B8CFCDF264B285A00233865 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				1BECCBF72649D5580041FE13 /* Storyboard+UIViewController.swift */,
+				1B8CFCE0264B289000233865 /* UIViewController+Extension.swift */,
+				1BECCC052649D88B0041FE13 /* UIColor+Extension.swift */,
+				1BECCC072649D88F0041FE13 /* UIView+Extension.swift */,
+				1BECCC092649D8B40041FE13 /* Array+Extension.swift */,
+				1BECCC032649D8830041FE13 /* DesignableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BECCBCC2649D2B90041FE13 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CFCDF264B285A00233865 /* Extensions */,
 				1BECCBCD2649D2C90041FE13 /* TabBar */,
 				1BECCBD92649D3F60041FE13 /* AppManager */,
 				1BECCBD82649D3E70041FE13 /* LocalManager */,
@@ -142,8 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				1BECCBEF2649D4E70041FE13 /* LocalManagerExampleRouter.swift */,
-				1BECCBED2649D4E70041FE13 /* LocalManagerExampleViewController.storyboard */,
 				1BECCBEE2649D4E70041FE13 /* LocalManagerExampleViewController.swift */,
+				1BECCBED2649D4E70041FE13 /* LocalManagerExampleViewController.storyboard */,
 			);
 			path = LocalManager;
 			sourceTree = "<group>";
@@ -196,10 +211,6 @@
 				1BECCBB62649D18C0041FE13 /* Colors.xcassets */,
 				1BECCBB72649D18C0041FE13 /* Images.xcassets */,
 				1BECCC012649D8630041FE13 /* AppDelegate.swift */,
-				1BECCC032649D8830041FE13 /* DesignableView.swift */,
-				1BECCC052649D88B0041FE13 /* UIColor+Extension.swift */,
-				1BECCC072649D88F0041FE13 /* UIView+Extension.swift */,
-				1BECCC092649D8B40041FE13 /* Array+Extension.swift */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -431,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8CFCE1264B289000233865 /* UIViewController+Extension.swift in Sources */,
 				1BECCBF82649D5620041FE13 /* Storyboard+UIViewController.swift in Sources */,
 				1BECCBF32649D5260041FE13 /* LocalManagerExampleRouter.swift in Sources */,
 				1BECCBF42649D5260041FE13 /* LocalManagerExampleViewController.swift in Sources */,

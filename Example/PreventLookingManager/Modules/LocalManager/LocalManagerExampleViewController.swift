@@ -1,30 +1,38 @@
 //
 //  LocalManagerExampleViewController.swift
-//  PreventLookingScreen_Example
+//  PreventLookingManager_Example
 //
 //  Created by Илья Соловьёв on 09.05.2021.
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import PreventLookingManager
 
 class LocalManagerExampleViewController: UIViewController {
+    
+    let preventLookingManager = PreventLookingManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let plmConfig = PreventLookingManagerConfig(timeout: 10,
+                                  camera: .front)
+        preventLookingManager.configure(with: plmConfig)
+        preventLookingManager.delegate = self
+    }
+
+}
+
+extension LocalManagerExampleViewController: PreventLookingManagerDelegate {
+    
+    func gotWarning() {
+        self.showAlert(title: "Local manager notification",
+                        message: "This notification is recieved from local PreventLookingManager via delegate methods")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func gotError(_ error: Error) {
+        self.showAlert(title: "Error", message: error.localizedDescription)
     }
-    */
-
+    
 }

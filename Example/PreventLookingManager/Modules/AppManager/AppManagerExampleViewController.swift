@@ -1,30 +1,24 @@
 //
 //  AppManagerExampleViewController.swift
-//  PreventLookingScreen_Example
+//  PreventLookingManager_Example
 //
 //  Created by Илья Соловьёв on 09.05.2021.
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import PreventLookingManager
 
 class AppManagerExampleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        PreventLookingAppManager.shared.didGetWarning.addListener(skipCurrent: true) { [weak self] _ in
+            self?.showAlert(title: "App manager notification",
+                            message: "This notification is recieved from the main PreventLookingAppManager (sigleton) to which this controller is subscribed")
+        }
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

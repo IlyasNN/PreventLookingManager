@@ -15,7 +15,7 @@ open class PreventLookingAppManager {
         
     }
     
-    public static func configure(with config: PLMConfig = PLMConfig()) {
+    public static func configure(with config: PreventLookingManagerConfig = PreventLookingManagerConfig()) {
         shared.configure(with: config)
     }
     

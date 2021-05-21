@@ -15,8 +15,8 @@
 		1BECCBAD2649D0A60041FE13 /* PLM+Observers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA12649D0560041FE13 /* PLM+Observers.swift */; };
 		1BECCBAE2649D0A60041FE13 /* PLM+VideoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */; };
 		1BECCBAF2649D0A60041FE13 /* PLM+Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */; };
-		1BECCBB02649D0A60041FE13 /* PLMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA22649D0570041FE13 /* PLMConfig.swift */; };
-		1BECCBB12649D0A60041FE13 /* PLMDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */; };
+		1BECCBB02649D0A60041FE13 /* PreventLookingManagerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA22649D0570041FE13 /* PreventLookingManagerConfig.swift */; };
+		1BECCBB12649D0A60041FE13 /* PreventLookingManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9C2649D0560041FE13 /* PreventLookingManagerDelegate.swift */; };
 		1BECCBB22649D0A60041FE13 /* PLMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB9F2649D0560041FE13 /* PLMError.swift */; };
 		1BECCBB32649D0A60041FE13 /* PreventLookingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */; };
 		1BECCBB42649D0A60041FE13 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECCB982649D0330041FE13 /* States.swift */; };
@@ -54,13 +54,13 @@
 		16CBE49ACAF5BB772AFE2853FFD722F6 /* PreventLookingManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreventLookingManager.release.xcconfig; sourceTree = "<group>"; };
 		1BECCB972649D0330041FE13 /* EyesDetection1902.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EyesDetection1902.mlmodel; sourceTree = "<group>"; };
 		1BECCB982649D0330041FE13 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
-		1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMDelegate.swift; sourceTree = "<group>"; };
+		1BECCB9C2649D0560041FE13 /* PreventLookingManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventLookingManagerDelegate.swift; sourceTree = "<group>"; };
 		1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+VideoSession.swift"; sourceTree = "<group>"; };
 		1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+Vision.swift"; sourceTree = "<group>"; };
 		1BECCB9F2649D0560041FE13 /* PLMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMError.swift; sourceTree = "<group>"; };
 		1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventLookingManager.swift; sourceTree = "<group>"; };
 		1BECCBA12649D0560041FE13 /* PLM+Observers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+Observers.swift"; sourceTree = "<group>"; };
-		1BECCBA22649D0570041FE13 /* PLMConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMConfig.swift; sourceTree = "<group>"; };
+		1BECCBA22649D0570041FE13 /* PreventLookingManagerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventLookingManagerConfig.swift; sourceTree = "<group>"; };
 		1BECCBA32649D0570041FE13 /* PLM+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PLM+CoreLocation.swift"; sourceTree = "<group>"; };
 		1BECCBA42649D0610041FE13 /* UIDevice+FrameRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+FrameRate.swift"; sourceTree = "<group>"; };
 		1BECCBA52649D0620041FE13 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
@@ -168,8 +168,8 @@
 				1BECCBA12649D0560041FE13 /* PLM+Observers.swift */,
 				1BECCB9D2649D0560041FE13 /* PLM+VideoSession.swift */,
 				1BECCB9E2649D0560041FE13 /* PLM+Vision.swift */,
-				1BECCBA22649D0570041FE13 /* PLMConfig.swift */,
-				1BECCB9C2649D0560041FE13 /* PLMDelegate.swift */,
+				1BECCBA22649D0570041FE13 /* PreventLookingManagerConfig.swift */,
+				1BECCB9C2649D0560041FE13 /* PreventLookingManagerDelegate.swift */,
 				1BECCB9F2649D0560041FE13 /* PLMError.swift */,
 				1BECCBA02649D0560041FE13 /* PreventLookingManager.swift */,
 			);
@@ -443,8 +443,8 @@
 				1BECCBAD2649D0A60041FE13 /* PLM+Observers.swift in Sources */,
 				1BECCBAE2649D0A60041FE13 /* PLM+VideoSession.swift in Sources */,
 				1BECCBAF2649D0A60041FE13 /* PLM+Vision.swift in Sources */,
-				1BECCBB02649D0A60041FE13 /* PLMConfig.swift in Sources */,
-				1BECCBB12649D0A60041FE13 /* PLMDelegate.swift in Sources */,
+				1BECCBB02649D0A60041FE13 /* PreventLookingManagerConfig.swift in Sources */,
+				1BECCBB12649D0A60041FE13 /* PreventLookingManagerDelegate.swift in Sources */,
 				1BECCBB22649D0A60041FE13 /* PLMError.swift in Sources */,
 				1BECCBB32649D0A60041FE13 /* PreventLookingManager.swift in Sources */,
 				1BECCBB42649D0A60041FE13 /* States.swift in Sources */,
