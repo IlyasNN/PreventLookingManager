@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'PreventLookingManager/Source/**/*'
+  s.source_files = 'Source/*'
   
   # s.resource_bundles = {
   #   'PreventLookingManager' => ['PreventLookingManager/Assets/*.png']
