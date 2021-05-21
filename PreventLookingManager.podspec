@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PreventLookingManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'PreventLookingManager is a manager that allows to prevent looking.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'PreventLookingManager/Source/**/*'
+  s.source_files = 'Source/*'
   
   # s.resource_bundles = {
   #   'PreventLookingManager' => ['PreventLookingManager/Assets/*.png']
