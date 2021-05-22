@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PreventLookingManager'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'PreventLookingManager is a manager that allows to prevent looking.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,9 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'PreventLookingManager' => ['PreventLookingManager/Assets/*.png']
