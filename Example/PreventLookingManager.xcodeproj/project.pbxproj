@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B86016926604B0000BE4AD0 /* CameraPositionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B86016826604B0000BE4AD0 /* CameraPositionEnum.swift */; };
+		1B86016B26604CD300BE4AD0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B86016A26604CD300BE4AD0 /* Constants.swift */; };
 		1B8CFCE1264B289000233865 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CFCE0264B289000233865 /* UIViewController+Extension.swift */; };
 		1BECCBBA2649D1BA0041FE13 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB62649D18C0041FE13 /* Colors.xcassets */; };
 		1BECCBBB2649D1BA0041FE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BECCBB72649D18C0041FE13 /* Images.xcassets */; };
@@ -49,6 +51,8 @@
 /* Begin PBXFileReference section */
 		10A3679AD26029144B264369 /* PreventLookingManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PreventLookingManager.podspec; path = ../PreventLookingManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D259C2359E2607E4EBB5A6 /* Pods_PreventLookingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreventLookingManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B86016826604B0000BE4AD0 /* CameraPositionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPositionEnum.swift; sourceTree = "<group>"; };
+		1B86016A26604CD300BE4AD0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1B8CFCE0264B289000233865 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		1BECCBB62649D18C0041FE13 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1BECCBB72649D18C0041FE13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				1BECCC072649D88F0041FE13 /* UIView+Extension.swift */,
 				1BECCC092649D8B40041FE13 /* Array+Extension.swift */,
 				1BECCC032649D8830041FE13 /* DesignableView.swift */,
+				1B86016A26604CD300BE4AD0 /* Constants.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 		1BECCBDA2649D4060041FE13 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				1B86016826604B0000BE4AD0 /* CameraPositionEnum.swift */,
 				1BECCBF02649D5070041FE13 /* SettingsRouter.swift */,
 				1BECCBF22649D5070041FE13 /* SettingsViewController.swift */,
 				1BECCBF12649D5070041FE13 /* SettingsViewController.storyboard */,
@@ -443,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8CFCE1264B289000233865 /* UIViewController+Extension.swift in Sources */,
+				1B86016926604B0000BE4AD0 /* CameraPositionEnum.swift in Sources */,
 				1BECCBF82649D5620041FE13 /* Storyboard+UIViewController.swift in Sources */,
 				1BECCBF32649D5260041FE13 /* LocalManagerExampleRouter.swift in Sources */,
 				1BECCBF42649D5260041FE13 /* LocalManagerExampleViewController.swift in Sources */,
@@ -458,6 +465,7 @@
 				1BECCBD52649D3760041FE13 /* TabBarViewController.swift in Sources */,
 				1BECCC082649D88F0041FE13 /* UIView+Extension.swift in Sources */,
 				1BECCBEA2649D4A30041FE13 /* AppManagerExampleRouter.swift in Sources */,
+				1B86016B26604CD300BE4AD0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

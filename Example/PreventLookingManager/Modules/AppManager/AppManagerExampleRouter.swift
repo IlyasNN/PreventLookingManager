@@ -18,7 +18,7 @@ class AppManagerExampleRouter {
         let nvc = UINavigationController(rootViewController: mapScreen)
         
         nvc.tabBarItem = TabBarItem(title: "App manager",
-                                    image: UIImage(named: ""),
+                                    image: UIImage(named: "tabBar.apple"),
                                          tag: 0)
         
         nvc.navigationBar.isHidden = true

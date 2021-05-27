@@ -10,8 +10,10 @@ import AVFoundation
 import Vision
 import CoreLocation
 
+/// PreventLookingManager class. Usually used with delegate and configured with PreventLookingManagerConfig
 open class PreventLookingManager: NSObject {
     
+    /// Delegate of PreventLookingManager
     open var delegate: PreventLookingManagerDelegate?
     
     open var didGetWarning: Property<Bool> = .init(false)
@@ -24,17 +26,13 @@ open class PreventLookingManager: NSObject {
     var time = 0.0
     var timer: Timer?
     
-    // XR - 16
-    // 6 - 1.5
-    let shotFrequency = 16
-    
     var minimumSpeed: Double?
     let locationManager = CLLocationManager();
     var lastLocation:CLLocation?
     var currentSpeed: Double = 0
     
     @objc func action() {
-        time += 0.1
+        time += 1
     }
     
     var cameraPosition: AVCaptureDevice.Position = .front
@@ -46,18 +44,30 @@ open class PreventLookingManager: NSObject {
         }
     }
     
-    private var frameRate = UIDevice().frameRate
+    var frameRate = 1
+    // TBD:
+    // defaultFrameRate is 1 shot/ses. In the future can be modified
+    //UIDevice().frameRate
     
     private var bufferSize = 10
     
     private var commandBuffer: [States] = []
     var currentState: States = .empty {
         didSet {
+            
+            if let minimumSpeed = minimumSpeed,
+               currentSpeed <= minimumSpeed {
+                time = 0
+                commandBuffer.removeAll()
+                return
+            }
+            
             commandBuffer.append(currentState)
             if commandBuffer.count > bufferSize {
                 commandBuffer.remove(at: 0)
                 
                 if commandBuffer.filter({ $0 == States.empty }).count > Int(Double(bufferSize) * 0.7) {
+                    time = 0
                     commandBuffer.removeAll()
                 }
                 
@@ -87,10 +97,10 @@ open class PreventLookingManager: NSObject {
     
     //-------------------------------------
     
-    // FIXME: add config
+    /// Configures PreventLookingManager
     public func configure(with config: PreventLookingManagerConfig) {
         
-        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(action), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(action), userInfo: nil, repeats: true)
         
         self.cameraPosition = config.camera
         self.bufferSize = config.timeout * frameRate

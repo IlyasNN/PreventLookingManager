@@ -18,7 +18,7 @@ class LocalManagerExampleRouter {
         let nvc = UINavigationController(rootViewController: mapScreen)
         
         nvc.tabBarItem = TabBarItem(title: "Local manager",
-                                         image: UIImage(named: "tabBar.map"),
+                                         image: UIImage(named: "tabBar.phone"),
                                          tag: 0)
         
         nvc.navigationBar.isHidden = true

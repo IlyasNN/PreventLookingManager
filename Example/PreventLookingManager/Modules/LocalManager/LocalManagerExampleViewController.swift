@@ -12,23 +12,23 @@ import PreventLookingManager
 class LocalManagerExampleViewController: UIViewController {
     
     let preventLookingManager = PreventLookingManager()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let plmConfig = PreventLookingManagerConfig(timeout: 10,
-                                  camera: .front)
+                                                    camera: .front)
         preventLookingManager.configure(with: plmConfig)
         preventLookingManager.delegate = self
     }
-
+    
 }
 
 extension LocalManagerExampleViewController: PreventLookingManagerDelegate {
     
     func gotWarning() {
         self.showAlert(title: "Local manager notification",
-                        message: "This notification is recieved from local PreventLookingManager via delegate methods")
+                       message: "This notification is recieved from local PreventLookingManager via delegate methods")
     }
     
     func gotError(_ error: Error) {

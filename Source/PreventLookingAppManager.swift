@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// A singletone of PreventLookingManager. Can be used only for all the app. Object can be subscribed for warning nitifications
 open class PreventLookingAppManager {
     
     public static let shared = PreventLookingManager()

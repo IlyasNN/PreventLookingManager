@@ -67,6 +67,19 @@ extension PreventLookingManager {
             if session.canAddInput(videoDeviceInput) {
                 session.addInput(videoDeviceInput)
                 self.videoDeviceInput = videoDeviceInput
+                
+                let videoSupportedFrameRateRanges = defaultVideoDevice.activeFormat.videoSupportedFrameRateRanges
+                for range in videoSupportedFrameRateRanges {
+                    if range.minFrameRate > 1.0 {
+                        frameRate = Int(range.minFrameRate)
+                    }
+                }
+                
+                try defaultVideoDevice.lockForConfiguration()
+                defaultVideoDevice.activeVideoMinFrameDuration = CMTimeMake(value: 1, timescale: Int32(frameRate))
+                defaultVideoDevice.activeVideoMaxFrameDuration = CMTimeMake(value: 1, timescale: Int32(frameRate))
+                defaultVideoDevice.unlockForConfiguration()
+                
             }
             
         }
