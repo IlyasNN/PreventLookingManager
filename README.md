@@ -1,14 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Demo/Resources/icon.png" alt="Icon"/>
+  <img src="https://github.com/IlyasNN/PreventLookingManager/blob/master/Media/Icon.png" alt="Icon"/>
 </p>
 <H1 align="center">PreventLookingManager</H1>
-<p align="center">
-  <img src="https://img.shields.io/github/license/hackiftekhar/IQKeyboardManager.svg"
-  alt="GitHub license"/>
 
 [![Version](https://img.shields.io/cocoapods/v/PreventLookingManager.svg?style=flat)](https://cocoapods.org/pods/PreventLookingManager)
 [![License](https://img.shields.io/cocoapods/l/PreventLookingManager.svg?style=flat)](https://cocoapods.org/pods/PreventLookingManager)
 [![platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg?style=fla)]()
+
+![Image alt](https://github.com/IlyasNN/PreventLookingManager/blob/readme/Media/Poster.png)
 
 ## Desription
 
