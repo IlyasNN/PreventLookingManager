@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/IlyasNN/PreventLookingManager/blob/master/Media/Icon.png" alt="Icon"/>
+  <img src="https://github.com/IlyasNN/PreventLookingManager/blob/master/Media/Icon_small.png" alt="Icon"/>
 </p>
 <H1 align="center">PreventLookingManager</H1>
 
