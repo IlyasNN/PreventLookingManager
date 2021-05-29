@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PreventLookingManager'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'PreventLookingManager is a manager that allows to prevent looking.'
 
 # This description is used to generate tags and improve search results.

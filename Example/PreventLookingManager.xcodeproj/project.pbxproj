@@ -644,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6810AC831C8E6F636BC27C5 /* Pods-PreventLookingManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEVELOPMENT_TEAM = 59L3UHZY77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -667,6 +668,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCB31BCE5C1BC0E87A715073 /* Pods-PreventLookingManager_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEVELOPMENT_TEAM = 59L3UHZY77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
